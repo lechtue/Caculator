@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tinhtoan">
+
+    <fragment
+        android:id="@+id/nav_tinhtoan"
+        android:name="com.e.detai.ui.tinhtoan.TinhToanFragment"
+        android:label="@string/tinh_toan"
+        tools:layout="@layout/fragment_tinhtoan" />
+    <fragment
+        android:id="@+id/nav_giaipt"
+        android:name="com.e.detai.ui.giaipt.GiaiPTFragment"
+        android:label="@string/menu_giai_pt"
+        tools:layout="@layout/fragment_giaipt" />
+    <fragment
+        android:id="@+id/nav_giaihept"
+        android:name="com.e.detai.ui.giaihept.GiaiHePTFragment"
+        android:label="@string/menu_giai_he_pt"
+        tools:layout="@layout/fragment_giaihept" />
+    <fragment
+        android:id="@+id/nav_donvi"
+        android:name="com.e.detai.ui.donvi.DonViFragment"
+        android:label="@string/menu_donvi"
+        tools:layout="@layout/fragment_donvi" />
+    <fragment
+        android:id="@+id/nav_heso"
+        android:name="com.e.detai.ui.heso.HeSoFragment"
+        android:label="@string/menu_heso"
+        tools:layout="@layout/fragment_heso" />
+</navigation>

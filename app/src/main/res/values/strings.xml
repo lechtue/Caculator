@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DeTai</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Đề Tài Android</string>
+    <string name="nav_header_subtitle">Máy tính đa năng</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">About</string>
+
+    <string name="tinh_toan">Máy tính</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_giai_pt">Giải phương trình bậc 2</string>
+    <string name="menu_donvi">Chuyển đổi đơn vị</string>
+    <string name="menu_giai_he_pt">Giải hệ phương trình bậc 1</string>
+    <string name="menu_heso">Chuyển đổi hệ số</string>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tinhtoan"
+            android:icon="@drawable/maytinh"
+            android:title="@string/tinh_toan" />
+        <item
+            android:id="@+id/nav_giaipt"
+            android:icon="@drawable/giaipt"
+            android:title="@string/menu_giai_pt" />
+        <item
+            android:id="@+id/nav_giaihept"
+            android:icon="@drawable/giaihept"
+            android:title="@string/menu_giai_he_pt" />
+        <item
+            android:id="@+id/nav_donvi"
+            android:icon="@drawable/donvi"
+            android:title="@string/menu_donvi" />
+        <item
+            android:id="@+id/nav_heso"
+            android:icon="@drawable/heso"
+            android:title="@string/menu_heso" />
+    </group>
+</menu>
